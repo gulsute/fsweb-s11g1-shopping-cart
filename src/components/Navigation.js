@@ -11,7 +11,7 @@ const Navigation = () => {
     <ScNav>
       <nav className="content">
         <NavLink to="/">Products</NavLink>
-        <NavLink to="/cart">
+        <NavLink to="/cart" cart={cart}>
           Cart <span>{cart.length}</span>
         </NavLink>
       </nav>

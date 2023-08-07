@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <ProductContext.Provider value={{ products, addItem }}>
         <CartContext.Provider value={{ cart, setCart }}>
-          <Navigation cart={cart} />
+          <Navigation />
 
           {/* Routelar */}
           <main className="content">
